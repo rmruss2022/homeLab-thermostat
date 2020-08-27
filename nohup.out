@@ -1,0 +1,103 @@
+[2020-08-26 21:22:49 -0400] [10036] [INFO] Starting gunicorn 20.0.4
+[2020-08-26 21:22:49 -0400] [10036] [INFO] Listening at: http://192.168.90.9:5000 (10036)
+[2020-08-26 21:22:49 -0400] [10036] [INFO] Using worker: sync
+[2020-08-26 21:22:49 -0400] [10039] [INFO] Booting worker with pid: 10039
+[2020-08-26 21:23:19 -0400] [10036] [CRITICAL] WORKER TIMEOUT (pid:10039)
+/home/pi/Desktop/thermostat/app.py:7: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+/home/pi/Desktop/thermostat/app.py:16: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(24, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:17: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(23, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:18: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(17, GPIO.OUT)
+[2020-08-26 21:23:19 -0400] [10039] [INFO] Worker exiting (pid: 10039)
+[2020-08-26 21:23:19 -0400] [10049] [INFO] Booting worker with pid: 10049
+[2020-08-26 21:23:49 -0400] [10036] [CRITICAL] WORKER TIMEOUT (pid:10049)
+/home/pi/Desktop/thermostat/app.py:7: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+/home/pi/Desktop/thermostat/app.py:16: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(24, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:17: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(23, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:18: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(17, GPIO.OUT)
+[2020-08-26 21:23:49 -0400] [10049] [INFO] Worker exiting (pid: 10049)
+[2020-08-26 21:23:49 -0400] [10052] [INFO] Booting worker with pid: 10052
+[2020-08-26 21:24:19 -0400] [10036] [CRITICAL] WORKER TIMEOUT (pid:10052)
+/home/pi/Desktop/thermostat/app.py:7: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+/home/pi/Desktop/thermostat/app.py:16: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(24, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:17: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(23, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:18: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(17, GPIO.OUT)
+[2020-08-26 21:24:19 -0400] [10052] [INFO] Worker exiting (pid: 10052)
+[2020-08-26 21:24:20 -0400] [10054] [INFO] Booting worker with pid: 10054
+[2020-08-26 21:24:50 -0400] [10036] [CRITICAL] WORKER TIMEOUT (pid:10054)
+/home/pi/Desktop/thermostat/app.py:7: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+/home/pi/Desktop/thermostat/app.py:16: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(24, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:17: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(23, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:18: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(17, GPIO.OUT)
+[2020-08-26 21:24:50 -0400] [10054] [INFO] Worker exiting (pid: 10054)
+[2020-08-26 21:24:50 -0400] [10056] [INFO] Booting worker with pid: 10056
+[2020-08-26 21:25:20 -0400] [10036] [CRITICAL] WORKER TIMEOUT (pid:10056)
+/home/pi/Desktop/thermostat/app.py:7: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+/home/pi/Desktop/thermostat/app.py:16: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(24, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:17: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(23, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:18: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(17, GPIO.OUT)
+[2020-08-26 21:25:20 -0400] [10056] [INFO] Worker exiting (pid: 10056)
+[2020-08-26 21:25:20 -0400] [10059] [INFO] Booting worker with pid: 10059
+[2020-08-26 21:25:50 -0400] [10036] [CRITICAL] WORKER TIMEOUT (pid:10059)
+/home/pi/Desktop/thermostat/app.py:7: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+/home/pi/Desktop/thermostat/app.py:16: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(24, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:17: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(23, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:18: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(17, GPIO.OUT)
+[2020-08-26 21:25:50 -0400] [10059] [INFO] Worker exiting (pid: 10059)
+[2020-08-26 21:25:50 -0400] [10061] [INFO] Booting worker with pid: 10061
+[2020-08-26 21:26:20 -0400] [10036] [CRITICAL] WORKER TIMEOUT (pid:10061)
+/home/pi/Desktop/thermostat/app.py:7: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+/home/pi/Desktop/thermostat/app.py:16: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(24, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:17: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(23, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:18: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(17, GPIO.OUT)
+[2020-08-26 21:26:20 -0400] [10061] [INFO] Worker exiting (pid: 10061)
+[2020-08-26 21:26:20 -0400] [10063] [INFO] Booting worker with pid: 10063
+[2020-08-26 21:26:51 -0400] [10036] [CRITICAL] WORKER TIMEOUT (pid:10063)
+/home/pi/Desktop/thermostat/app.py:7: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+/home/pi/Desktop/thermostat/app.py:16: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(24, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:17: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(23, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:18: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(17, GPIO.OUT)
+[2020-08-26 21:26:51 -0400] [10063] [INFO] Worker exiting (pid: 10063)
+[2020-08-26 21:26:51 -0400] [10065] [INFO] Booting worker with pid: 10065
+[2020-08-26 21:27:21 -0400] [10036] [CRITICAL] WORKER TIMEOUT (pid:10065)
+/home/pi/Desktop/thermostat/app.py:7: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+/home/pi/Desktop/thermostat/app.py:16: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(24, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:17: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(23, GPIO.OUT)
+/home/pi/Desktop/thermostat/app.py:18: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(17, GPIO.OUT)
+[2020-08-26 21:27:21 -0400] [10065] [INFO] Worker exiting (pid: 10065)
+[2020-08-26 21:27:21 -0400] [10067] [INFO] Booting worker with pid: 10067
